@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:10000/api';
+const API_BASE = 'https://amazononsatisfacaomongodb-3.onrender.com/api';
 
 const Storage = {
   async getResponses() {
