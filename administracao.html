@@ -31,7 +31,7 @@
   <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
 
   <script>
-    const API_BASE = 'http://localhost:10000/api';
+    const API_BASE = 'https://amazononsatisfacaomongodb-3.onrender.com/api';
 
     async function carregarRespostas() {
       try {
@@ -57,7 +57,7 @@
       }
     }
 
-    const socket = io('http://localhost:10000');
+    const socket = io('https://amazononsatisfacaomongodb-3.onrender.com:5500');
     socket.on('new-response', () => carregarRespostas());
 
     window.onload = carregarRespostas;
