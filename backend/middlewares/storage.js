@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5500/api';
+const API_BASE = 'http://localhost:10000/api';
 
 const Storage = {
   async getResponses() {
