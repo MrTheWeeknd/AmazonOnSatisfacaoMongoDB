@@ -1,0 +1,25 @@
+@import url(administracaoLogin.css);
+@import url(administracaoMenu.css);
+@import url(administracaoRefeicao.css);
+@import url(administracaoSatisfacao.css);
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #EFEEEA;
+    --cor-acento: #FE7743;
+    --cor-fundo: #273F4F;
+    --fonte-primaria: 'Poppins';
+  }
+
+  body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    margin: 50% auto;
+    font-family: var(--fonte-primaria);
+  }
+
+  #lista-respostas{
+    display: none;
+  }
+
+

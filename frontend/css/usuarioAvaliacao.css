@@ -1,0 +1,45 @@
+  .usuario__nivel__satisfacao{
+    padding: 10% 10%;
+    color: var(--cor-secundaria);
+    font-size: 20px;
+  }
+
+  .form-check-label{
+    padding: 0;
+    margin-top: 4px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .usuario__nivel__satisfacao{
+      padding: 5% 10%;
+      color: var(--cor-secundaria);
+      font-size: 20px;
+      text-align: left;
+      font-size: 30px;
+    }
+  
+    .form-check-label{
+      font-size: 45px;
+      margin-top: 0px;
+    }
+
+    .usuario__titulo.usuario__titulo__satisfacao{
+      font-size: 50px;
+    }
+
+    .btn.usuario__botao__navegacao.botao__voltar{
+      font-size: 30px;
+      margin-left: 60%;
+    }
+
+    .btn.btn-primary.usuario__botao__navegacao{
+      font-size: 30px;
+      margin-left: 4%;
+    }
+  }
+
+  @media screen and (min-width: 1728px) {
+    
+  }
+
+  

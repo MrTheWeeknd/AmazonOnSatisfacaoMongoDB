@@ -1,0 +1,72 @@
+.botao__usuario__escolhaOpcaoRefeicao{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4% 2%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.usuario__img__editar{
+    width: 30%;
+
+}
+
+.usuario__pedido__lista{
+    display: flex;
+    padding: 3%; 
+}
+
+.btn-link{
+    display: flex;
+    padding: 0%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .usuario__titulo.usuario__titulo_agradecimento{
+        margin-top: 15%;
+        font-size: 50px;
+    }
+
+    .usuario__pedido__subtitulo.usuario__pedido__subtitulo__tablet{
+        font-size: 40px;
+    }
+
+    .btn.botao__voltar.botao__usuario__escolhaOpcaoRefeicao{
+        font-size: 28px;
+    }
+
+    .btn.btn-primary.botao__usuario__escolhaOpcaoRefeicao{
+        font-size: 28px;
+    }
+
+    .usuario__pedido__lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 2% 0%;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .usuario__img__editar{
+        justify-content: right;
+        width: 4%;
+        
+    }
+
+    .btn-link{
+        justify-content: right;
+        width: 100%;
+    }
+
+    .btn.btn-primary.botao__confirmar__pedido{
+        font-size: 30px;
+    }    
+}

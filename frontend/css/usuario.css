@@ -1,0 +1,57 @@
+@import url(js/ui.js);
+@import url(usuarioAvaliacao.css);
+@import url(usuarioCardapio.css);
+@import url(usuarioObservacao.css);
+@import url(usuarioPedido.css);
+@import url(usuarioSetor.css);
+
+
+#app.container.py-4{
+  font-family: var(--fonte-primaria);
+}
+
+.usuario__titulo{
+  text-align: center;
+  font-size: 37px;
+  font-weight: 600;
+  color: var(--cor-acento);
+}
+
+.usuario__titulo__modal{
+  color: var(--cor-fundo);
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.usuario__pedido__subtitulo{
+  margin: 5% 0% 2% 0%;
+  text-align: center;
+  font-size: 20px;
+  color: var(--cor-secundaria);
+  font-weight: 500; 
+}
+
+.usuario__pedido__subtitulo__modal{
+  text-align: left;
+  font-size: 18px;
+  padding: -3%;
+  color: var(--cor-primaria);
+  font-weight: 300; 
+}
+
+.usuario__botao__navegacao{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 15%;
+  font-size: 19px;
+  font-weight: 200;
+}
+
+.botao__voltar{
+  background-color: var(--cor-acento);
+  color: var(--cor-secundaria);
+  border: none;
+}

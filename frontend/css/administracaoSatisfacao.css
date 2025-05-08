@@ -1,0 +1,35 @@
+.administracao__satisfacao__titulo {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    color: var(--cor-secundaria);
+    justify-content: center;
+    text-align: center ;
+}
+
+.administracao__satisfacao__texto{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center ;
+    padding: 5% 0%;
+}
+
+li.list-group-item {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    background-color: var(--cor-acento);
+    border: 1px solid var(--cor-acento);
+    border-radius: 30px ;
+    padding: 2%;
+    color: var(--cor-secundaria);
+}
+
+.administracao__satisfacao__canva{
+    width: 200%;
+    height: 300%;
+}
+
+.administracao__satisfacao__imagem{
+    width: 100%;
+    margin: 5% 0% -30% 0%;
+}

@@ -1,0 +1,21 @@
+.usuario__titulo__observacao{
+    margin-top: 10%;
+}
+
+#obs{
+    margin: 8% 0%;
+    padding: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+    .usuario__titulo.usuario__titulo__observacao{
+        margin-top: 5%;
+        font-size: 50px;
+    }
+    #obs{
+        margin: 5% 0%;
+        padding: 2%;
+        font-size: 20px;
+    }
+    
+}

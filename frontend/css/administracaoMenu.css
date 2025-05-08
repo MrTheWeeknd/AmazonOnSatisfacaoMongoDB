@@ -1,0 +1,53 @@
+  .d-flex.administracao__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-fundo);
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    font-size: 50px;
+    color: var(--cor-secundaria);
+    padding: 4% 2% 0% 2%;
+  }
+
+  .administracao__menu__titulo{
+    font-size: 60px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .btn.btn-outline-light{
+    font-size: 30px;
+  }
+
+  .dropdown-item{
+    font-size: 30px;
+  }
+
+  .administracao__menu_opcoes{
+    background-color: black;
+    color: var(--cor-secundaria);
+    width: 400%;
+  }
+
+  .administracao__menu_opcoes__botao_exportar{
+    background-color: var(--cor-secundaria);
+    color: black;   
+  }
+
+  .administracao__menu_opcoes__botao_exportar:hover{
+    background-color: var(--cor-fundo);
+    color: white;   
+  }
+
+  #adminContent{
+    margin-top: 6%;
+  }
+
+
+  
+  @media (min-width: 768px) {
+    .menu-mobile { display: none; }
+  }
+  
